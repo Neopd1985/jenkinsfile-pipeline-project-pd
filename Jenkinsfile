@@ -4,6 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Compiling the java source code'
+                echo'processing"
+                
                 sh 'javac Hello.java'
             }
         }
